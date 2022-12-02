@@ -1,0 +1,49 @@
+body{
+	background-image: url(/static/least.jpg);
+	background-attachment: fixed;
+	background-position: center;
+
+
+
+}
+
+h2{
+	color: white;
+	margin-left: 500px;
+	
+	
+}
+
+em{
+	color: black;
+}
+
+.head{
+	background-color: black;
+	height: 100px;
+	padding-top: 20px;
+	opacity: 0.4;
+	
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.det{
+	color: green;
+}
+
+.users{
+	
+	margin-left: 1500px;
+	position: absolute;
+	top: 40px; left: 90px;
+}
+
+a{
+	text-decoration: none;
+	font-size: 20px;
+	margin-right: 40px;
+}

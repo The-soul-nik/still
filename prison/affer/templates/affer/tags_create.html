@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="">
+      <form class="" enctype="multipart/form-data" action="{% url 'affer:tag_create_url' %}" method="post">
+        {% csrf_token %}
+          {{ form.title }}
+          {{ form.slug }}
+          {{ form.thumb }}
+
+        <button type="submit" class="btn btn-primary">Create Tag</button>
+      </form>
+    </div>
+  </body>
+</html>

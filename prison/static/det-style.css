@@ -1,0 +1,40 @@
+
+img{
+	width: 450px;
+	border-radius: 25px;
+	border: 2px solid white;
+	border-color: white;
+}
+
+
+       *{
+          margin: 0;
+          padding: 0;
+        }
+        .bg {
+            height: 100%;
+            text-align: center;
+            line-height: 600px;
+            position: relative;
+            / * Вы можете добавить следующий код комментария, чтобы сделать край менее резким * /
+            /* background: url('timg.jpg') no-repeat;
+            background-size:cover; */
+                         / * Вы также можете добавить прозрачный фон, чтобы страница была менее резкой * /
+            background-color: rgba(0,0,0,.5);
+        }
+        .bg::before{
+          content:'';
+          background: url('least.jpg') no-repeat;
+          background-size:cover;
+          
+          filter: blur(5px);
+          position: absolute;
+          top:0;
+          bottom:0;
+          left:0;
+          right:0;
+          z-index: -1;
+        }
+        .content {
+            color: #ffffff;
+            font-size: 40px;
